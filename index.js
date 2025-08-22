@@ -32,3 +32,32 @@ function countVoweles(str){
 console.log(countVoweles("Mandatory"))
 
 
+
+// Problem 3:- Check Palindrome
+
+function isPalindrome(str){
+    const lowerstr = str.toLowerCase()
+
+    const chars = lowerstr.split("")
+
+    const reverseChars = chars.reverse();
+
+    const reverseStr = reverseChars.join("")
+
+    if(lowerstr === reverseStr){
+        return true
+    }
+    else{
+        return false
+    }
+}
+
+// test  it
+console.log(isPalindrome("Level"))
+console.log(isPalindrome("Madam"))
+console.log(isPalindrome("ProgramingHero"))
+
+
+
+
+
