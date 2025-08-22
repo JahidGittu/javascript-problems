@@ -196,21 +196,21 @@ console.log(factorial(5));
 
 
 function pingPong() {
- 
+  // 1 থেকে 20 পর্যন্ত লুপ
   for (let i = 1; i <= 20; i++) {
-    
+    // 1. যদি ১৫ দিয়ে ভাগ যায়
     if (i % 15 === 0) {
       console.log("PingPong");
     }
-   
+    // 2. যদি ৩ দিয়ে ভাগ যায়
     else if (i % 3 === 0) {
       console.log("Ping");
     }
-    
+    // 3. যদি ৫ দিয়ে ভাগ যায়
     else if (i % 5 === 0) {
       console.log("Pong");
     }
-   
+    // 4. অন্য সব ক্ষেত্রে
     else {
       console.log(i);
     }
