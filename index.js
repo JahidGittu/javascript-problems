@@ -61,3 +61,21 @@ console.log(isPalindrome("ProgramingHero"))
 
 
 
+
+// Problem 4:-Find the Maximum Number
+
+function findMaxNum(arr){
+    let max = arr[0];
+
+    for (let num of arr){
+        if (num > max){
+            max = num
+        }
+    }
+    return max
+}
+
+// test it
+console.log(findMaxNum([2,5,6,4,9,15,4,5,7,12,25]))
+
+
