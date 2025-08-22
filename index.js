@@ -115,3 +115,26 @@ function sumArray(arr) {
 
 // Test
 console.log(sumArray([1, 2, 3, 4])); 
+
+
+
+
+// Problem 7:- Find Even Numbers in an Array
+
+function findEvenNumbers(arr) {
+
+  const evens = [];
+
+
+  for (let num of arr) {
+
+    if (num % 2 === 0) {
+      evens.push(num);
+    }
+  }
+
+  return evens;
+}
+
+// Test
+console.log(findEvenNumbers([1, 2, 3, 4, 5, 6]));
