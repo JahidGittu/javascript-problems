@@ -138,3 +138,29 @@ function findEvenNumbers(arr) {
 
 // Test
 console.log(findEvenNumbers([1, 2, 3, 4, 5, 6]));
+
+
+
+
+// Problem 8: Capitalize First Letter of Each Word
+
+function capitalizeWords(str) {
+
+  const words = str.split(" ");
+
+  const result = [];
+
+  for (let word of words) {
+ 
+    const first = word.charAt(0).toUpperCase();
+    const rest = word.slice(1);
+    const capitalized = first + rest;
+
+    result.push(capitalized);
+  }
+
+  return result.join(" ");
+}
+
+// Test
+console.log(capitalizeWords("hello world"));
