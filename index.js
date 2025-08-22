@@ -79,3 +79,20 @@ function findMaxNum(arr){
 console.log(findMaxNum([2,5,6,4,9,15,4,5,7,12,25]))
 
 
+
+
+
+// Problem 5:-Remove Duplicates from an Array
+
+function removeDuplicates(arr){
+    const unique = [];
+
+    for (let num of arr){
+        if(!unique.includes(num)){
+            unique.push(num);
+        }
+    }
+    return unique
+}
+// test it
+console.log(removeDuplicates([5,4,2,4,6,5,2,3,8,8,8,8,]))
