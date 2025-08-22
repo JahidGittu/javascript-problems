@@ -142,7 +142,7 @@ console.log(findEvenNumbers([1, 2, 3, 4, 5, 6]));
 
 
 
-// Problem 8: Capitalize First Letter of Each Word
+// Problem 8:- Capitalize First Letter of Each Word
 
 function capitalizeWords(str) {
 
@@ -164,3 +164,21 @@ function capitalizeWords(str) {
 
 // Test
 console.log(capitalizeWords("hello world"));
+
+
+
+// Problem 9:- Factorial of a Number
+
+function factorial(n) {
+
+  let result = 1;
+
+  for (let i = 1; i <= n; i++) {
+    result = result * i;
+  }
+
+  return result;
+}
+
+// Test
+console.log(factorial(5));
