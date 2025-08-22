@@ -96,3 +96,22 @@ function removeDuplicates(arr){
 }
 // test it
 console.log(removeDuplicates([5,4,2,4,6,5,2,3,8,8,8,8,]))
+
+
+
+// Problem 6:- Sum of All Numbers in an Array
+
+function sumArray(arr) {
+
+  let sum = 0;
+
+
+  for (let num of arr) {
+    sum = sum + num;
+  }
+
+  return sum;
+}
+
+// Test
+console.log(sumArray([1, 2, 3, 4])); 
