@@ -194,7 +194,6 @@ console.log(factorial(5));
 // 5 এর গুণিতক হলে "Pong"
 // দুটো হলে "PingPong"
 
-
 function pingPong() {
   // 1 থেকে 20 পর্যন্ত লুপ
   for (let i = 1; i <= 20; i++) {

@@ -8,7 +8,7 @@
 ## ✅ Problem List
 
 ### 1. Reverse a String
-```js
+```bash
 function reverseString(str){
     const chars = str.split("");
     const reverseChars = chars.reverse();
@@ -16,10 +16,11 @@ function reverseString(str){
     return reversedStr;
 }
 console.log(reverseString("Trap")); // parT
+```
+
+
 2. Count Vowels in a String
-js
-Copy
-Edit
+```bash
 function countVoweles(str){
     const voweles = "aeiou";
     let count = 0;
@@ -33,10 +34,12 @@ function countVoweles(str){
     return count;
 }
 console.log(countVoweles("Mandatory")); // 3
+```
+
+
+
 3. Check Palindrome
-js
-Copy
-Edit
+```bash
 function isPalindrome(str){
     const lowerstr = str.toLowerCase();
     const chars = lowerstr.split("");
@@ -47,10 +50,10 @@ function isPalindrome(str){
 console.log(isPalindrome("Level")); // true
 console.log(isPalindrome("Madam")); // true
 console.log(isPalindrome("ProgrammingHero")); // false
+```
+
 4. Find the Maximum Number
-js
-Copy
-Edit
+```bash
 function findMaxNum(arr){
     let max = arr[0];
     for (let num of arr){
@@ -61,10 +64,11 @@ function findMaxNum(arr){
     return max;
 }
 console.log(findMaxNum([2,5,6,4,9,15,4,5,7,12,25])); // 25
+```
+
+
 5. Remove Duplicates from an Array
-js
-Copy
-Edit
+```bash
 function removeDuplicates(arr){
     const unique = [];
     for (let num of arr){
@@ -75,10 +79,11 @@ function removeDuplicates(arr){
     return unique;
 }
 console.log(removeDuplicates([5,4,2,4,6,5,2,3,8,8,8])); // [5,4,2,6,3,8]
+```
+
+
 6. Sum of All Numbers in an Array
-js
-Copy
-Edit
+```bash
 function sumArray(arr) {
   let sum = 0;
   for (let num of arr) {
@@ -87,10 +92,11 @@ function sumArray(arr) {
   return sum;
 }
 console.log(sumArray([1, 2, 3, 4])); // 10
+```
+
+
 7. Find Even Numbers in an Array
-js
-Copy
-Edit
+```bash
 function findEvenNumbers(arr) {
   const evens = [];
   for (let num of arr) {
@@ -101,10 +107,11 @@ function findEvenNumbers(arr) {
   return evens;
 }
 console.log(findEvenNumbers([1, 2, 3, 4, 5, 6])); // [2,4,6]
+```
+
+
 8. Capitalize First Letter of Each Word
-js
-Copy
-Edit
+```bash
 function capitalizeWords(str) {
   const words = str.split(" ");
   const result = [];
@@ -117,10 +124,11 @@ function capitalizeWords(str) {
   return result.join(" ");
 }
 console.log(capitalizeWords("hello world")); // Hello World
+```
+
+
 9. Factorial of a Number
-js
-Copy
-Edit
+```bash
 function factorial(n) {
   let result = 1;
   for (let i = 1; i <= n; i++) {
@@ -129,6 +137,9 @@ function factorial(n) {
   return result;
 }
 console.log(factorial(5)); // 120
+```
+
+
 10. PingPong Challenge
 👉 1 থেকে 20 পর্যন্ত প্রিন্ট করো:
 
@@ -138,9 +149,7 @@ console.log(factorial(5)); // 120
 
 দুটো হলে "PingPong"
 
-js
-Copy
-Edit
+```bash
 function pingPong() {
   for (let i = 1; i <= 20; i++) {
     if (i % 15 === 0) {
@@ -158,6 +167,11 @@ function pingPong() {
   }
 }
 pingPong();
+```
+
+
+
+
 🚀 Summary
 এই প্র্যাকটিসের মাধ্যমে শেখা যাবে –
 
