@@ -182,3 +182,41 @@ function factorial(n) {
 
 // Test
 console.log(factorial(5));
+
+
+
+
+// Problem 10: PingPong Challenge
+
+
+// 👉 1 থেকে 20 পর্যন্ত প্রিন্ট করো →
+// 3 এর গুণিতক হলে "Ping"
+// 5 এর গুণিতক হলে "Pong"
+// দুটো হলে "PingPong"
+
+
+function pingPong() {
+ 
+  for (let i = 1; i <= 20; i++) {
+    
+    if (i % 15 === 0) {
+      console.log("PingPong");
+    }
+   
+    else if (i % 3 === 0) {
+      console.log("Ping");
+    }
+    
+    else if (i % 5 === 0) {
+      console.log("Pong");
+    }
+   
+    else {
+      console.log(i);
+    }
+  }
+}
+
+// Run
+pingPong();
+
